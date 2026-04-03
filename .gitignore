@@ -1,9 +1,10 @@
-# 模型权重（大文件，不入库）
-output/
-
-# 原始数据集（大 CSV 文件）
+# 原始数据集（大 CSV 文件，不入库）
 data/DISC-Law-SFT-Pair.csv
 data/DISC-Law-SFT-Triplet.csv
+
+# 训练中间 checkpoint（保留最终输出）
+output/qwen3-law-lora/checkpoint-*/
+output/qwen3-law-lora/training_args.bin
 
 # 日志
 logs/
