@@ -1,0 +1,10 @@
+### model
+model_name_or_path: /root/models/Qwen3.5-0.8B
+adapter_name_or_path: /root/sft/output/qwen3-law-lora
+template: qwen3_nothink
+finetuning_type: lora
+
+### export
+export_dir: /root/sft/output/qwen3-law-merged
+export_size: 2
+export_legacy_format: false
